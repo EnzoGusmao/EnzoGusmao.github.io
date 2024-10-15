@@ -89,3 +89,9 @@ background-color: var(--teal-400)
 background-color: var(--teal-500)
     
 }
+
+.lucas {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+}
