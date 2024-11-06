@@ -61,3 +61,25 @@ p {
     margin-bottom: 20px;
     color: white;
 }
+
+p a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+p a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+p a:active {
+    background-color: #003d82;
+    transform: scale(0.98);
+}
