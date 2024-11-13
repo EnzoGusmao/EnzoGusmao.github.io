@@ -1,0 +1,44 @@
+
+body {font-family: "playFair Display", serif;}
+
+.section-selector-1 { background-color: var(--green-800) }
+.section-selector-2 { background-color: var(--gray-200) }
+.section-selector-4.theme-dark { background-color: var(--green-800) }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--white-000) }
+
+.theme-dark.section-selector-1 a:link,
+.theme-dark.section-selector-1 a:visited { color: var(--green-200) }
+
+.theme-dark.section-selector-1 a:focus,
+.theme-dark.section-selector-1 a:hover,
+.theme-dark.section-selector-1 a:active { color: var(--white-000) }
+
+header h1 { font-size: var(--font-size-xxxl) } 
+
+/* Centraliza o link dentro do parágrafo */
+p {
+    text-align: center;
+}
+
+p a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #004085; /* Novo tom de azul para contraste com o verde */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+p a:hover {
+    background-color: #003366; /* Tom mais escuro para hover */
+    transform: scale(1.05);
+}
+
+p a:active {
+    background-color: #002244; /* Tom mais escuro para o estado ativo */
+    transform: scale(0.98);
+}
+
