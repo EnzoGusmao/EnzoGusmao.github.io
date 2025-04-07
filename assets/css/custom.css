@@ -1,13 +1,13 @@
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #808080 }
 
-header.theme-dark   { background-color: #0f172a }
+header.theme-dark   { background-color: #a0a0a0 }
 
 header.theme-dark  h1 { color: var(--sky-400); }
 
-section.theme-dark   { background-color: #0f172a }
+section.theme-dark   { background-color: #c0c0c0}
 
-footer.theme-dark   { background-color: #0f172a }
+footer.theme-dark   { background-color: #dfdfdf }
 
 
 
@@ -24,7 +24,7 @@ header .col-text h2, .col-1 > h3 { line-height: 1.8 }
     height: 520px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #140f0f;
+    border: 2px solid #0f1214;
     box-shadow: inset;
 }
 
